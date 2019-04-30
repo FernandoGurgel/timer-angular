@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.sidenav-ds{
+    background-color: #ffffff;
+    color: #6C6C6C;
+}
+
+.mat-list-item-content {
+    color: #E2E2E2;
+}
+
+.mat-toolbar-single-row{
+    color: #E2E2E2;
+}
+
+.title-tab{
+    font-family: "Roboto", "Adobe Blank";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #635B5B;
+}
+
+.sidenav{
+    background-color: #10203F
+}
+
+.mat-sidenav-content{
+    background-color: #F3F4F6;
+}
