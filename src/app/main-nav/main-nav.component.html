@@ -3,11 +3,17 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="!(isHandset$ | async)">
-    <mat-toolbar><i class="fas fa-leaf"></i></mat-toolbar>
+    <mat-toolbar>
+      <div>          
+        <fa name="leaf" size="4x"></fa>
+      </div>
+    </mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#" title="Dashboard"><fa name="tachometer" size="3x"></fa></a>
+      <a mat-list-item href="#" title="Análise quimíco"><fa name="flask" size="3x"></fa></a>
+      <a mat-list-item href="#" title="Alertas"><fa name="exclamation-triangle" size="3x"></fa></a>
+      <a mat-list-item href="#" title="Gráficos"><fa name="bar-chart" size="3x"></fa></a>
+      <a mat-list-item href="#" title="Configurações"><fa name="cogs" size="3x"></fa></a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -21,7 +27,12 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span class="title-tab">Dashboard</span>
+      <div class="d-flex flex-row-reverse bd-highlight">
+          <div class="p-2 bd-highlight">Flex item 1</div>
+          <div class="p-2 bd-highlight">Flex item 2</div>
+          <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
     </mat-toolbar>
-    <!-- Add Content Here -->
+    <h1 class="display-4">Display 4</h1>
   </mat-sidenav-content>
 </mat-sidenav-container>

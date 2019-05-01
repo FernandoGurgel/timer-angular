@@ -16,6 +16,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #E2E2E2;
 }
 
+.fa-4x {
+    margin-top: 0.5em;
+}
+
+.mat-nav-list > a{
+    margin-top: 3em;
+}
+
 .title-tab{
     font-family: "Roboto", "Adobe Blank";
     font-weight: 300;
@@ -25,6 +33,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .sidenav{
+    width: 6.2em !important;
     background-color: #10203F
 }
 
