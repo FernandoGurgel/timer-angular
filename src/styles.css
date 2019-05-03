@@ -1,9 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+    height: 100%;
+}
 
-.sidenav-ds{
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.ts-fundo {
+    background-color: red;
+}
+
+.sidenav-ds {
     background-color: #ffffff;
     color: #6C6C6C;
 }
@@ -12,7 +22,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #E2E2E2;
 }
 
-.mat-toolbar-single-row{
+.background {
+    background-color: #D5D4D4;
+}
+
+.mat-toolbar-single-row {
     color: #E2E2E2;
 }
 
@@ -20,11 +34,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin-top: 0.5em;
 }
 
-.mat-nav-list > a{
+.mat-nav-list>a {
     margin-top: 3em;
 }
 
-.title-tab{
+.title-tab {
     font-family: "Roboto", "Adobe Blank";
     font-weight: 300;
     font-style: normal;
@@ -32,11 +46,25 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #635B5B;
 }
 
-.sidenav{
-    width: 6.2em !important;
+.mat-list-base {
+    margin-left: 10px;
+}
+
+.sidenav {
+    width: 6.9em !important;
     background-color: #10203F
 }
 
-.mat-sidenav-content{
+.mat-sidenav-content {
     background-color: #F3F4F6;
+}
+
+.ds-motor {
+    display: block;
+    text-indent: -9999px;
+    width: 120px;
+    height: 120px;
+    fill: red;
+    background: url(assets/motor.svg)no-repeat top left;
+    background-size: contain;
 }
