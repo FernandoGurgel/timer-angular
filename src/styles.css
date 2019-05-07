@@ -39,7 +39,7 @@ body {
 }
 
 .title-tab {
-    font-family: "Roboto", "Adobe Blank";
+    /* font-family: "Roboto", "Adobe Blank"; */
     font-weight: 300;
     font-style: normal;
     font-size: 1.5em;
@@ -64,7 +64,10 @@ body {
     text-indent: -9999px;
     width: 120px;
     height: 120px;
-    fill: red;
     background: url(assets/motor.svg)no-repeat top left;
     background-size: contain;
+}
+
+.motor-draw {
+    fill: red;
 }

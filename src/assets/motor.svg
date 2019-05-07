@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<svg xmlns="http://www.w3.org/2000/svg" class="motor_1" height="50" width="50" viewBox="0 0 50 50">
     <title>TECMOTORS_Icons</title>
     <!-- <g id="_o_mockup" data-name="[o] mockup">
         <rect x="-69.9051" y="-629.95452" width="10" height="10" style="fill:#fff;stroke:#FFF;stroke-linecap:round;stroke-linejoin:round"/>
     </g> -->
-    <g id="Layer_4" data-name="Layer 4" style="fill:red;">
-        <polygon points="32.388 21.539 29.28 23.947 30.299 24.408 28.904 26.437 28.918 26.448 31.884 24.035 30.935 23.642 32.404 21.55 32.388 21.539"/>
+    <g class="motor-draw" data-name="Layer 4">
+        <polygon  points="32.388 21.539 29.28 23.947 30.299 24.408 28.904 26.437 28.918 26.448 31.884 24.035 30.935 23.642 32.404 21.55 32.388 21.539"/>
         <path d="M22.6261,28.011H16.30579a.5.5,0,0,0,0,1H22.6261a.5.5,0,0,0,0-1Z"/>
         <path d="M22.6261,25.92511H16.30579a.5.5,0,0,0,0,1H22.6261a.5.5,0,0,0,0-1Z"/>
         <path d="M22.6261,23.83917H16.30579a.5.5,0,0,0,0,1H22.6261a.5.5,0,0,0,0-1Z"/>
